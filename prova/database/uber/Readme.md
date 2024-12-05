@@ -4,7 +4,7 @@
 
 - Você vai gerenciar um objeto da classe moto que faz corridas com passageiros.
 - A moto pode ter um motorista e pode ter um passageiro.
-- A moto deve registrar quanto é o custo atual da corrida foram percorridos.
+- A moto deve registrar o custo atual da corrida.
 - O passageiro deve pagar o motorista quando descer da moto.
 - Motorista e Passageiro são pessoas que tem nome e dinheiro.
 - O passageiro não pode subir na moto se não tiver motorista.
@@ -16,8 +16,9 @@
 ## Implementação
 
 - Crie a classe Pessoa com os atributos nome e dinheiro.
-- Crie a classe Moto e os atributos custo, motorista e passageiro.
-- Ambas as classes devem ter atributos privados e métodos públicos.
+- Crie a classe Moto com os atributos custo, motorista e passageiro.
+- Ambas as classes devem ter atributos privados.
+- Crie os métodos que julgar necessário com os devidos modificadores de acesso.
 - Cria a moto no `Adapter` e implemente os métodos `setDriver`, `setPass`, `drive`, `leavePass` e `show`.
 
 ## Exemplo

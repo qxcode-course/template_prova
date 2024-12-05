@@ -5,24 +5,17 @@ matricula: "Digite sua matrícula aqui por obséquio"
 
 # Bom trabalho
 
-## TKO
+- É proibido uso de IAs como copilot e chatgpt, como também ajuda de terceiros.
+- Consultas a internet podem ser utilizadas para dúvidas sobre sintaxe ou uso de recursos da linguagem, por exemplo: "como usar tal estrutura de dados".
 
-```bash
-## Criando seu novo repositório
-tko init --remote [fup|ed|poo]
+- Abra esse README.md e coloque sua matrícula e nome nos dados YAML no topo do arquivo.
+- Abra a prova com o comando `tko open prova`
+- Escolha sua linguagem de programação.
+- Abra a atividade.
+- Vá fazendo o código e testando aos poucos.
+- Faça o push quando terminal.
 
-## Interagindo com seu repositório
-tko open <pasta>
-
-## Rodando um código diretamente
-tko test <arquivo_codigo>  # usando interface default
-tko run  <arquivo_codigo>  # usando interface curses
-
-## Atualizando o tko
-pipx upgrade tko
-```
-
-## Comandos do Git
+## Atalhos git
 
 - `git add <arquivo>`: Adiciona um arquivo ao stage
 - `git add .`: Adiciona todos os arquivos ao stage
@@ -32,16 +25,6 @@ pipx upgrade tko
 - `git status`: Mostra o estado atual do repositório
 - `git log`: Mostra o histórico de commits
 - `git clone <url>`: Clona um repositório remoto para uma pasta local
-
-## Resolvendo Conflitos
-
-- Antes de trabalhar num respositório, lembre de fazer o pull.
-- Se quando for fazer o push, der erro, tente as seguintes opções.
-  - git pull --ff-only
-  - git rebase
-  - git pull --no-rebase
-- Se não der certo, cole o erro no chatgpt e siga as instruções.
-- Se não der certo, mande o erro no grupo do telegram.
 
 ## Lembre-se
 
