@@ -11,7 +11,8 @@
 - Quando o passageiro entra na moto, começa a contagem do custo da corrida.
 - Cada km percorrido aumenta o custo da corrida em 1 real.
 - Na hora de desembarcar, o passageiro paga o motorista de acordo com o que foi percorrido.
-- Se não tiver dinheiro suficiente, o passageiro dá tudo que tem e o Uber paga o que falta.
+- Se não tiver dinheiro suficiente, o passageiro dá tudo que tem.
+- O motorista sempre recebe o valor completo da corrida, porque o Uber paga o que falta.
 
 ## Implementação
 
